@@ -21,19 +21,23 @@
     margin: 10px auto;
 }
 
+[type=button] {
 
+    background-color: #FF4E00;
 
-.button {
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btn_container {
     position: absolute;
-    background-color: wheat;
-    color: orangered;
-    margin-left: 47%;
+    margin-left: 37.5%;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 0px solid;
     position: fixed;
-    bottom: 150px;
+    bottom: 40px;
     font-size: 100%;
 }
 
