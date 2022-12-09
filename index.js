@@ -15,7 +15,7 @@ function showQuote() {
             } else {
                 author = data[rand].author;
             }
-            document.getElementById('quote').innerHTML = quote;
+            document.getElementById('quote').innerHTML = '"' + quote + '"';
             document.getElementById('author').innerHTML = author;
 
 

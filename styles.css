@@ -1,6 +1,8 @@
 .container {
     margin-top: 15%;
-    color: wheat
+    color: wheat;
+    position: relative;
+
 }
 
 #quote {
@@ -22,15 +24,17 @@
 
 
 .button {
+    position: absolute;
     background-color: wheat;
     color: orangered;
     margin-left: 47%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
     border: 0px solid;
-    position: relative;
+    position: fixed;
+    bottom: 150px;
+    font-size: 100%;
 }
 
 body {
